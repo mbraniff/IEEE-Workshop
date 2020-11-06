@@ -8,9 +8,6 @@
 	@g++ 2.cpp -o 3
 
 clean:
-	@touch 1
-	@rm 1
-	@touch 2
-	@rm 2
-	@touch 3
-	@rm 3
+	@touch 1 && rm 1
+	@touch 2 && rm 2
+	@touch 3 && rm 3

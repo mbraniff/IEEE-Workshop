@@ -1,4 +1,6 @@
 #include <iostream>
+#include <unistd.h>
+#include <signal.h>
 
 using namespace std;
 
@@ -36,9 +38,10 @@ int main(void)
 
     int add4 = 1;
 
+    add4 + 4; // This line does nothing
     // We can do calculations on the fly but the result is not saved
     cout << "add4 on the fly: " << add4 + 4 << endl;
-    cout << "add4 after fly add: " << add4 << endl; // We see add4 didnt change
+    cout << "add4 after fly add: " << add4 << endl;
     add4 = add4 + 4; // we reassign add4 to be previous data in add4 plus 4
     cout << "add4 after adding 4: " << add4 << endl << endl;
 

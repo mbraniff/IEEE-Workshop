@@ -12,4 +12,5 @@ using namespace std;
 
 int main(void){
     cout << "Hello Tinkering Program!" << endl;
+    return 0;
 }
