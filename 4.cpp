@@ -17,6 +17,9 @@ int main(void)
      * Putting it all together!
      * You are given a random number in a random range
      * and have the user guess that number.
+     * If the user guesses above the number tell them 
+     * they guessed too high, and if they guessed
+     * below the number tell them they guessed too low.
      * If the user can not guess the number in 10
      * tries then you should tell them they lost the
      * game. If they guess the number then end the game
@@ -27,6 +30,8 @@ int main(void)
     /****This is given code, do NOT change it****/
     int upperLimit = 400 + rand()%1100;
     int randNum = rand()%upperLimit;
+
+    cout << "I just generated a number between 0 and " << upperLimit << " can you guess it?" << endl;
 
     /****Start coding here****/
     string guess;
