@@ -5,7 +5,7 @@
 	@g++ 2.cpp -o 2
 
 3: 3.cpp
-	@g++ 2.cpp -o 3
+	@g++ 3.cpp -o 3
 
 clean:
 	@touch 1 && rm 1

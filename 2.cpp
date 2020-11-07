@@ -52,7 +52,8 @@ int main(void)
      * print out the result (it should end up as 32767)
      ***********************************************/
     
-    
+
 
     // Now lets try to push this new code to github!
+    return 0;
 }
